@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: student-results
-        image: srilayam/student-results:latest   # ⚠️ MUST match DockerHub image
+        image: kothaavinash/AVIN:latest   # ⚠️ MUST match DockerHub image
         ports:
         - containerPort: 80
 ---          # ⚠️ IMPORTANT: YOU MISSED THIS LINE (VERY IMPORTANT)
